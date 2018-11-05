@@ -1,0 +1,43 @@
+body
+{
+ font-style: italic;
+ background-color: #ff9999;
+}
+.heading
+{
+	background-color: yellow;
+	color: green;
+	display:block;
+	text-align:center;
+}
+.listHeading
+{
+	color: coral;
+	
+}
+.list
+{
+	background-color: #ccffcc;
+	display:block;
+	text-align:center-left;
+	
+}
+.picture
+{
+    width:100%
+}
+.pic1
+{
+	display:block;
+	text-align:center;
+	height:60%;
+	width:80%;
+	
+}
+@media only screen and (min-width: 600px) {
+    .pic1 {
+       display:block;
+		text-align:center;
+		height:60%;
+		width:600px;
+    }
