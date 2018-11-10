@@ -8,6 +8,16 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<title>The Benefits of AI</title>
+		<style>
+  .container {
+      padding: 40px 120px;
+  }
+	hr {
+		color: lightblue;
+		background-color: lightblue;
+	}
+	}
+  </style>
 	</head>
 	<body>
 		<div class = "menu" id="menu">
@@ -25,29 +35,57 @@
 				<h1> The Benefits of AI<small> - By Joshua Harrison</small></h1>
   	</div>
 	</div>
-		<div class="container">
+		<div class="container text-center">
 			<blockquote class ="blockquote">
-				<p class="text-info">“People worry that computers will get too smart and take over the world,
+				<p class="text-info-center">“People worry that computers will get too smart and take over the world,
 					but the real problem is that they're too stupid and they've already taken over the world.”
     		</p>
 				<footer class="blockquote-footer">Pedro Domingos</footer>
   		</blockquote>
-			<div>
+<div class="row">
+	<div class="col-sm-4">
+			<div class="carousel slide" data-ride="carousel" id="TopCarousel">
+					<ol class ="carousel-indicators">
+							<li data-slide-to="0" class="active" data-target="#TopCarousel"></li>
+							<li data-slide-to="1" data-target="#TopCarousel"></li>
+							<li data-slide-to="2" data-target="#TopCarousel"></li>
+					</ol>
+				<div class="carousel-inner" style="width:100%; height: 350px;">
+					<div class="item active">
+						<img src="Images/AI_Skull.jpg" alt="AI and humans">
+						<div class="carousel-caption">
+							<a href="#AIHumans"><h2 style="color:lightgrey">AI and Humans</h2></a>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="Images/CurrentAI.jpg" alt="Current State of AI">
+						<div class="carousel-caption">
+							<a href="#CurrentAI"><h2 style="color:lightgrey">AI Now</h2></a>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="Images/FutureAI.jpg" alt="Future of AI">
+						<div class="carousel-caption">
+							<a href="#FutureAI"><h2 style="color:lightgrey">AI In the Future</h2></a>
+						</div>
+					</div>
 			</div>
-			<img src="Images/AI_Skull.jpg" class="rounded mx-auto d-block" alt="Robot holding skull" width="444" height = "344">
+
+			<a class="left carousel-control" data-slide="prev" href="#TopCarousel" role="button">
+				<span class="glyphicon glyphicon-arrow-left"></span>
+				<span class="sr-only">Last Slide</span>
+			</a>
+			<a class="right carousel-control" data-slide="next" href="#TopCarousel" role="button">
+				<span class="glyphicon glyphicon-arrow-right"></span>
+				<span class="sr-only">Next Slide</span>
+			</a>
 		</div>
-		<nav class="navbar bg-light">
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class"nav-link" href="index.html">Index</a>
-			</li>
-			<li class="nav-item">
-			 <a class="nav-link" href="WebBrowsers.html">Web Browsers</a>
-		  </li>
-		  <li class"nav-item">
-				<a class"nav-link" href="RFID.html">RFID</a>
-			</li>
-		</ul>
-  	</nav>
+	</div>
+</div>
+		<hr>
+		<div >
+
 	</body>
 </html>
