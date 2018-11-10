@@ -20,7 +20,8 @@
   </style>
 	</head>
 	<body>
-		<div class = "menu" id="menu">
+		<div class="container-fluid" style="background-color:lightblue">
+		<div class = "menu" id="menu" style="background-color:lightblue">
 	              <ul style="list-style-type: none;">
 	                  <li><a  href="index.html">Home</a></li>
 	                  <li><a  href="RFID.html">RFID</a></li>
@@ -30,6 +31,10 @@
 	                  <li ><a href="????.html">?????</a></li>
 	              </ul>
 	    </div>
+		</div>
+		<div style="background-color:lightblue">
+		<br>
+	</div>
 		<div class="container-fluid" style="background-color: lightblue">
 			<div class="jumbotron text-center">
 				<h1> The Benefits of AI<small> - By Joshua Harrison</small></h1>
@@ -43,14 +48,16 @@
 				<footer class="blockquote-footer">Pedro Domingos</footer>
   		</blockquote>
 <div class="row">
-	<div class="col-sm-4">
+	<div class="col-sm-2">
+	</div>
+	<div class="col-sm-8">
 			<div class="carousel slide" data-ride="carousel" id="TopCarousel">
 					<ol class ="carousel-indicators">
 							<li data-slide-to="0" class="active" data-target="#TopCarousel"></li>
 							<li data-slide-to="1" data-target="#TopCarousel"></li>
 							<li data-slide-to="2" data-target="#TopCarousel"></li>
 					</ol>
-				<div class="carousel-inner" style="width:100%; height: 350px;">
+				<div class="carousel-inner" style="width:100%">
 					<div class="item active">
 						<img src="Images/AI_Skull.jpg" alt="AI and humans">
 						<div class="carousel-caption">
@@ -83,9 +90,119 @@
 			</a>
 		</div>
 	</div>
+	<div class="col-sm-2">
+	</div>
 </div>
-		<hr>
-		<div >
-
+	<hr>
+	<div class="row">
+		<h2 style="color:lightblue"><b>Introduction</b></h2>
+		<div class="col-sm-12">
+			<p style="color:lightblue"><b>
+				For many people, the aspect of Computer Science that they fear most is Artificial Intelligence (AI for short).
+				Whether it is the famous Skynet in The Terminator or Sunny in I, Robot, AI has been represented by the media in a huge variety of ways,
+			  be it kind, useful or simply destructive and terrifying. Asimov discusssed this as one of his motivations
+				for writing the Robot trilogy, a feeling that if a future in which Robots or AI existed was possible, we should charge for it
+				rather than shy away. In this page of our site we will be looking at the benefits and dangers of AI as well as humanity's progress in
+				the search for AI.
+			</b>
+			</p>
+			<br>
+			<div class="text-center">
+				<img src="Images/Sonny.jpg" alt="Sunny from I, Robot" width="300" height="300" class="img-rounded">
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-sm-12">
+			<a name="CurrentAI"></a>
+			<h2 style="color:lightblue"><b>AI Now</b></h2>
+			<p style="color:lightblue"><b>
+				Despite newspapers being eager to report any progress in automated computing as 'AI',
+				the reality is that as of writing, we are still quite far away from seeing AI in our lifetimes.
+				Instead, what we have seen huge leaps of progress in is Machine Learning.
+				Machine Learning is a subset of AI and consists of getting machines to autonomously get better at
+				both learning how to get better at a task as well as get better at the task itself.
+				In short it is the art of making a computer get better and better at a task but without us having to tell
+				it how to change to improve. We can imagine machine
+				learning as a field and the programmers that deal with it as the farmers. We can plant a seed in this field
+				(which in real life is giving a machine learning algorithm a task to do) and we can let it grow into a crop
+				(which is an algorithm to solve that problem). The only thing needed is water (which is data).
+				Examples of the current breakthroughs in Machine Learning are:
+			</b></p>
+			<dl class="row">
+				<dt class="col-sm-3"><a href="https://deepmind.com">Google Deepmind</a></dt>
+				<dd class="col-sm-9" style="color:lightblue">Pictured at the top of the page, Google Deepmind is the company within Google that is focussed on the creation of programs that can learn to solve complex tasks without needing to be told how.
+				They have been responsible for many great developments in the field of getting computers to solve abstract tasks. Some of these breakthroughs include:
+				<dl class="row">
+					<dt class="col-sm-3"><b>AlphaGo</b></dt>
+					<dd class="col-sm-9" style="color:lightblue">One of the biggest steps in ML is the AlphaGo program challenging, and beating the worlds best Go player. Go is one of the most complex games ever made and requires players to adapt to each others strategies on the fly. There are more positions in Go than atoms in the known universe and as a result, it would be impossible to compute every posisble outcome to find the best one to take.
+						This means that for a program to have beaten the world master at Go, it must have used some 'intuition' since it could not have just tried every move.
+					</dd>
+					<dt class="col-sm-3"><b>Motor Control</b></dt>
+					<dd class="col-sm-9" style="color:lightblue">This was a paper published by deepmind explaining that if we model objects in computers and give rules as to which parts can move and which cannot, these models can 'learn to walk'. They do this by giving the program the goal of making the model reach a destination, and saying it can try moving 'muscles' in various ways to do so. The fact that the deepmind managed to teach its models to walk shows that years of evolution can be done in a few hours.</dd>
+				</dl>
+			  </dd>
+				<dt class="col-sm-3"><a href="https://intogral.com">Intogral</a></dt>
+				<dd class="col-sm-9" style="color:lightblue">A startup company teamed up with Durham University to implement some of the results of the ML research in the outside world. They have implemented many solutions for a variety of companies that revolve mainly around pattern recognition or analysis of trends. A key field of research is how machine learning improves the medical insutry, diagnosing or analysing issues in milliseconds as opposed to weeks.</dd>
+				<dt class="col-sm-3"><a href="https://en.wikipedia.org/wiki/Generative_adversarial_network">Generative Adversarial Networks</a></dt>
+				<dd class="col-sm-9" style="color:lightblue">Generative Adversarial Networks involve the competition between a constantly improving critic and generator. The generator begins with no data from which to generate and the critic begins with little data that can be used to tell if something is real/false.
+				the critic then judges the generator's creations as real or false and the generator learns from this to create better versions and the critic learns to judge fakes better. This technology has been used recently in the mapping of faces over real people to perfectly mimic the face of the person being masked.</dd>
+			</dl>
+		</div>
+	</div>
+<hr>
+<div class= "row">
+	<div class="col-sm-12">
+		<a name="FutureAI"></a>
+		<h2 style="color:lightblue"><b>AI In the Future</b></h2>
+		<p style="color:lightblue"><b>
+			In the future, AI could take many, many forms. The most likely path along which we will travel is that the machines we are currently teaching to recognise images of cats or dogs will soon be able to recognise laws of physics such as how everything free from other objects move towards the ground. It is reasoning like this that will lead to huge leaps in AI since once a machine can recognise 'why' things happen, not just what happens, we will see the intuition shown by the AlphaGo
+			start to lead to hypothesis made my machines and soon they will catch up to humans scientifically. As human scientific knowledge has developed exponentially, as will machine scientific understanding and within an estimated 10 years, machines will be smarter than humans. A task nature has yet to achieve in millions.
+			Once machines are scientifically smarter, it will be interesting to see how they interact with each other. If their goal is to acknowledge patterns then they will surely need to correspond to find the most data to analyse.
+			This correspondence could come in the form of the already-blooming internet-of-things in which computers are heavily integrated into every device in our homes or lives and perhaps even into us as humans in the form of medicla monitors or id chips. Using all this data, machines could quickly analyse every pattern there is, since they would continuously be improving until they understand more than humanity ever could alone.
+			As to our fate in all this, we could be left as we are, to be studied for pattern analysis to allow for machines to analyse the patterns of living creatures, or we could be deemed as a threat since we would no doubt be fearful of machines growing too intelligent and therefore we would inhibit their ability to fulfil the goal of analysing patterns.
+			<br>
+			A good video to watch on this topic is:
+		</b></p>
+		<br>
+		<div class="embed-responsive embed-responsive-16by9">
+	    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R4UdXEEAszo"></iframe>
+	  </div>
+</div>
+</div>
+<hr>
+<div class="row">
+	<h2 style="color:lightblue"><b>AI and Humanity</b></h2>
+	<div class="col-sm-12">
+		<a name="AIHumans"></a>
+		<p style="color:lightblue"><b>
+			One thing that few people realise is just how heavily ML effects your day to day life. ML and AI seem to be something on the cutting edge that happens in movies or labratories however it happens all around you, every single day.
+			As we are woke up by the alarms on our mobile phones, we check our Facebook feeds, perhaps there is a photo of someone you recognise but you aren't sure where from, this was most likely suggested by the algorithm Facebook uses for connecting
+			people based on a likelihood of knowing each other from similar interests or institutions. Then perhaps you check your emails, noticing there is no spam as it was all cleared by a filter that is constantly getting better at detecting spam and unwanted emails.
+			Then you get dressed, wearing clothes suggested to you on your favourite shopping website which tracks who purchases what and compares this with websites stored in your cookies to learn what people with certain interests buy.
+			You head to work using google maps which is constantly tracking the location of phones on its network and using this to predict or detect traffic. If it sends you a different way to avoid a jam and you arrive early, then it knows it is improving.
+			You text your friends asking what they are doing tonight using voice-to-speech which has learnt to recgonise your speech to better translate it to text. The list goes on..
+			<br>
+			You may say this is all a bit much however, this is a very real existence and one that everyone on Earth is finding themselves in. The main uses of ML at the moment are to make life for us as humans and consumers not only easier but also more
+			suggestable to advertising by the companies that own the programs. For example, using ML to recognise buying patterns, Walmart realised that most people buying nappies, were also buying alcohol. At first this sounds quite unusual however upon
+			investigation, it was discovered that the wives would have the child and stay at home to care for it. They would then send the husbands out to purchase nappies and to cope with the stress of having a baby, the husbands would buy alcohol.
+			By stocking both alcohol and nappies nearby, Walmart increased profits and also made life easier for the people already buying both, you can see the double-edged sword here.
+		</b></p>
+	</div>
+</div>
+</div>
+<div class="row">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-9">
+<div class="media">
+  <img class="mr-3" src="Images/Josh.png" alt="Picture of Josh">
+  <div class="media-body">
+    <h5 class="mt-0" style="color:blue">Joshua Harrison</h5>
+    This will be just a little bio about Josh written by someone else.
+  </div>
+	<a href="https://github.com/TheFullTru7h">Josh's GitHub</a>
+</div>
+</div>
 	</body>
 </html>
